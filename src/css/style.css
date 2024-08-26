@@ -1,0 +1,214 @@
+@import url('./cores.css');
+@import url('./global.css');
+@import url('./utilitarios.css');
+
+.container{
+    max-width: 1200px;
+    padding:20px;
+    margin: 0 400px 0 400px;
+    
+
+}
+.header-bg{
+    background-color: var(--cor-03);
+}
+
+.header{
+    color: var(--cor-00);
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter";
+    font-size: 300;
+}
+
+
+.header-left{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+
+.header-menu{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+.header-menu a{
+    padding: 5px 10px;
+}
+
+.banner-bg{
+    background-color: var(--cor-03);
+    color: var(--cor-00);
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: var(--cor-00);
+}
+
+.banner-right{
+    padding-top: 80px;
+    flex:1
+}
+
+.banner-right h1{
+    font-size: 50px;
+    font-family: "Calistoga";
+    padding-bottom: 50px;
+}
+
+.banner-right p{
+    font-family: "Inter", sans-serif;
+    padding-bottom: 70px;
+}
+
+.banner-right .botao{
+    background-color: var(--cor-p1);
+    border: none;
+    padding: 10px 40px
+
+}
+
+.banner-left{
+    padding-top: 40px;
+    flex:1
+}
+
+.pesquisa-bg{
+    background-color: var(--cor-02);
+    width: 100%;
+    height: 320px;
+    margin-top: -120px;
+}
+
+.pesquisa{
+    color: var(--cor-00);
+    font-family: "Inter", sans-serif;
+    
+}
+
+.search-text{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.search-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.search-box input{
+    background-color: var(--cor-01);
+    font-size: 16px;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    outline: 0;
+    width: 100%;
+    max-width: 350px;
+}
+
+.search-box select{
+    background-color: var(--cor-01);
+    font-size: 16px;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    outline: 0;
+    width: 100%;
+    max-width: 350px;
+}
+
+.burgers-bg{
+    background-color: var(--cor-03);
+}
+
+.burgers-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.burger{
+    width: 384px;
+    height: 416px;
+    display: block;
+    border-radius: 5px;
+    overflow: hidden;
+    padding:20px;
+}
+
+.burger:hover{
+    opacity: 0.8;
+}
+
+.burger .emcima{
+    background-color: var(--cor-01);
+    height: 208px;
+    display: flex;
+}
+
+.burger .emcima img{
+    padding-top: 20px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+
+
+.burger .embaixo{
+    background-color: var(--cor-02);
+    margin-top: -60px;
+}
+
+.burger .embaixo:hover{
+    background-color: var(--cor-03);
+}
+
+.embaixo p{
+    font-size: 16px;
+    color: var(--cor-00);
+    font-family: "Inter", sans-serif;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+.nome-burger{
+    font-size: 24px;
+    font-family: "Calistoga";
+    font-weight: 200;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+.preco{
+    font-size: 24px;
+    font-family: "Calistoga";
+    color: var(--cor-p1);
+    font-weight: 200;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.footer-bg{
+    background-color: var(--cor-01);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.footer a{
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    color: var(--cor-00);
+
+}

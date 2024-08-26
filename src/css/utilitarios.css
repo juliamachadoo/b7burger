@@ -1,0 +1,15 @@
+.botao {
+    font-family: "Inter", sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid var(--cor-00);
+    border-radius: 4px;
+    color: var(--cor-00);
+    line-height: 1.33;
+    max-width: max-content;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ffb60d;
+}
